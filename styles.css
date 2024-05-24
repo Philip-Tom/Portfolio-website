@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    /* display:flex; */
+    /* height: 80px; */
+    width: 100%;
+}
+header{
+    display: flex;
+}
+
+.menu{
+    display:flex;
+    justify-content:space-between;
+}
+
+ ul{
+    display:flex;
+    align-items:center;
+    color:#474747;
+ }
+
+ li{
+    text-decoration:none;
+    list-style:none;
+    padding: 10px;
+ }
+ .logo{
+    font-family: "Open Sans", sans-serif;
+    font-size: 45px;
+    font-weight:bold;
+ }
+ .redText{
+    color:red;
+ }
+.btnPrimary{
+    background-color:#FD6E0A;
+    color:white;
+    border:0;
+    border-radius:4px;
+    padding:15px 30px 15px 30px;
+    font-weight:bold;
+}
+
